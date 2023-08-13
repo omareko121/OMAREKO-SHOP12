@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prodacts",
+  "info": {
+    "singularName": "prodact",
+    "pluralName": "prodacts",
+    "displayName": "prodact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imges": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "numperofprodact": {
+      "type": "decimal",
+      "required": true
+    },
+    "descrbtiom": {
+      "type": "text",
+      "required": true
+    },
+    "riting": {
+      "type": "decimal",
+      "required": true
+    },
+    "Catgry": {
+      "type": "enumeration",
+      "enum": [
+        "الاعلى جوده",
+        "الاعلى كفائه"
+      ],
+      "required": true
+    }
+  }
+}
